@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  list-style: none;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: $primary-font;
+  color: $primary-text-color;
+  background-color: $primary-white-color;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  width: 100%;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
